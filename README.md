@@ -110,7 +110,9 @@ To get started using Kubernetes, we will be manually deploying our IMDb applicat
   kubectl get pods -n imdb
 
   # check application logs
-  kubectl logs <pod name from above> -n imdb
+  # TODO: example for getting a pod name
+  # POD_NAME=$(kubectl get pods -n imdb -l app=imdb -o jsonpath='{.items[0].metadata.name}')
+  kubectl logs $POD_NAME -n imdb
 
   # query our application's endpoint (this is expected to fail)
   http localhost:30080/healthz
