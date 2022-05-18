@@ -563,10 +563,10 @@ kic test integration
 
 ### Deleting a Codespace
 
-    - <https://github.com/codespaces>
-    - Use the context menu to delete the Codespace
-    - Please delete your Codespace once you complete the lab
-    - Creating a new Codespace only takes about 45 seconds!
+- <https://github.com/codespaces>
+- Use the context menu to delete the Codespace
+- Please delete your Codespace once you complete the lab
+- Creating a new Codespace only takes about 45 seconds!
 
 ## FAQ
 
