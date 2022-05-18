@@ -53,7 +53,7 @@
 		"gruntfuggly.todo-tree",
 		"mutantdino.resourcemonitor",
 		"humao.rest-client",
-		"timonwong.shellcheck",
+		"timonwong.shellcheck"
 	],
 
 	"waitFor": "postCreateCommand",
