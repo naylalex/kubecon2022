@@ -120,7 +120,8 @@ To get started using Kubernetes, we will manually deploy our IMDb application. T
   kubectl logs <pod name from above> -n imdb
 
   # query our application's endpoint (this is expected to fail)
-  http localhost:30080/healthz
+<>
+
 
   # A service is an abstract way to expose an application running on a set of Pods as a network service.
 
