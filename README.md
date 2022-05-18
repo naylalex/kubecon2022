@@ -232,7 +232,7 @@ You can pull to see the commits that Flux added to the repository on your behalf
 ```bash
 git pull
 
-git log --oneline
+
 ```
 
 Because we specified a `--path` of `/deploy/bootstrap`, Flux added the bootstrap manifests to the `/deploy/bootstrap` directory within your branch. The `gotk-components.yaml` (GitOps ToolKit) includes the manifests that comprise the Flux runtime, and the `gotk-sync.yaml` is where the GitRepository and Kustomization pair are defined.
@@ -308,6 +308,7 @@ git push
 ```
 
 The Sync Interval of the `flux-system` GitRepository is set to 1 minute; but the `flux-system` Kustomization is set to 10 minutes. We can trigger an automatic Flux Reconciliation by using the Flux CLI:
+git add .
 
 ```bash
 flux reconcile source git flux-system
