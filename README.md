@@ -25,7 +25,7 @@ We use this Codespaces platform for `inner-loop` Kubernetes training and develop
 
 ![Create Codespace](./images/OpenWithCodespaces.jpg)
 
-- Your running codespace should look like something like this:
+- Your running codespace should look like  something like this:
 
 ![Running Codespace](./images/RunningCodespace.png)
 
