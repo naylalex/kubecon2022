@@ -197,6 +197,7 @@ You can run a check using the Flux CLI to verify that Flux has successfully been
 # flux check will verify that the flux runtime components are successfully installed
 $ flux check
 
+
 ► checking prerequisites
 ✗ flux 0.29.5 <0.30.2 (new version is available, please upgrade)
 ✔ Kubernetes 1.21.3+k3s1 >=1.20.6-0
