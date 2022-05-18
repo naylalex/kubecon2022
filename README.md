@@ -139,7 +139,7 @@ To get started using Kubernetes, we will manually deploy our IMDb application. T
 
 Open [curl.http](./curl.http)
 
-> [curl.http](./curl.http) is used in conjuction with the Visual Studio Code [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension.
+> [curl.http](./curl.ehttp) is used in conjuction with the Visual Studio Code [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension.
 >
 > When you open [curl.http](./curl.http), you should see a clickable `Send Request` text above each of the URLs
 
