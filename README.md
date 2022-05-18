@@ -311,9 +311,7 @@ git push
 The Sync Interval of the `flux-system` GitRepository is set to 1 minute; but the `flux-system` Kustomization is set to 10 minutes. We can trigger an automatic Flux Reconciliation by using the Flux CLI:
 
 ```bash
-flux reconcile source git flux-system
-
-flux reconcile kustomization flux-system
+z
 
 # upon successful reconciliation of the flux-system kustomization, let's check the status of the flux kustomizations. The application kustomization will have failed:
 $ flux get kustomization
