@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  kubecon2022:
+    image: kubecon2022
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 3000:3000
