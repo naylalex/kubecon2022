@@ -116,7 +116,7 @@ To get started using Kubernetes, we will manually deploy our IMDb application. T
   # verify that our pods were created
   kubectl get pods -n imdb
 
-  # check application logs
+  # check application logs-
   kubectl logs <pod name from above> -n imdb
 
   # query our application's endpoint (this is expected to fail)
