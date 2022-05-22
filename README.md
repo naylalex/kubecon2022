@@ -91,7 +91,7 @@ We use this Codespaces platform for `inner-loop` Kubernetes training and develop
 
   ```
 
-## Introduction to Kuberenetes
+## Introduction to Kubernetes
 
 To get started using Kubernetes, we will manually deploy our IMDb application. This REST application written in .NET has been containerized and allows us to run an in-memory database that accepts different types of requests.
 
