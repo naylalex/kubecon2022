@@ -183,7 +183,7 @@ export BRANCH=`git config user.name | sed 's/ //g'`$RANDOM
 
 git checkout -b $BRANCH
 
-git push --set-upstream origin $BRANCH
+git push --set-upstream origin $BRANCHCD 
 
 # and let's also cd into the base directory of this repository
 cd /workspaces/kubecon2022
